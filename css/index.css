@@ -1,0 +1,20 @@
+#form{
+	display: inline-block;
+	padding: 32px 48px 0px 48px;
+	border: 1px solid #FFF;
+	background-color: #ffffff ;
+}
+
+body{
+	//background-color:  ;
+	background-image: url("love_couple_in_rain-wide.jpg") !important;
+	  background-size: cover;
+
+}
+	
+#male{
+	display: inline;
+}
+#female{
+	display: inline;
+}
