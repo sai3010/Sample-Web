@@ -1,20 +1,53 @@
 #form{
 	display: inline-block;
 	padding: 32px 48px 0px 48px;
-	border: 1px solid #FFF;
-	background-color: #ffffff ;
+	border: 2px solid #f3e5f5;
+	background-image: url("love_couple_in_rain-wide.jpg") !important; 
 }
-
+.text{
+	font-family: Mogra;
+	color: #f50057 ;
+	font-size: 35px;
+	text-align: justify-all;
+	text-align: center;
+}
+.formtext{
+	color: #f3e5f5;
+}
 body{
 	//background-color:  ;
 	background-image: url("love_couple_in_rain-wide.jpg") !important;
 	  background-size: cover;
 
 }
-	
+.maindiv{
+	position: absolute;
+	right: 60%;
+	left: 10%;
+}
 #male{
 	display: inline;
 }
 #female{
 	display: inline;
+}
+@media only screen and (max-width: 1300px) {
+    .maindiv {
+        position: absolute;
+	right: 60%;
+	left: 10%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .maindiv {
+        position: absolute;
+	right: 50%;
+	left:5%;
+    }
+ @media only screen and (max-width: 600px) {
+    .maindiv {
+        position: absolute;
+	right: 15%;
+	left: 15%;
+    }
 }
