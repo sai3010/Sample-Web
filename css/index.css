@@ -14,6 +14,30 @@
 .formtext{
 	color: #f3e5f5;
 }
+#textarea1:focus+label{
+	color: #e91e63;
+}
+#textarea1:focus
+{
+	border-bottom: 2px solid #e91e63;
+      box-shadow: none;
+  }
+ .material-icons {
+  color: white;
+  }
+  .material-icons:active, .material-icons:focus, .material-icons:hover{color:#e91e63 !important;}
+ 	.input-field input[type=radio]:focus + label,
+    .input-field input[type=text]:focus + label ,
+    .input-field input[type=email]:focus + label{
+      color: #e91e63;
+    }
+
+    .input-field input[type=radio]:focus,
+    .input-field input[type=text]:focus,
+    .input-field input[type=email]:focus{
+      border-bottom: 2px solid #e91e63;
+      box-shadow: none;
+    }
 body{
 	//background-color:  ;
 	background-image: url("love_couple_in_rain-wide.jpg") !important;
