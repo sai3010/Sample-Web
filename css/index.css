@@ -11,6 +11,9 @@
 	text-align: justify-all;
 	text-align: center;
 }
+input[type=radio]:checked{
+	color: #e91e63;
+}
 .formtext{
 	color: #f3e5f5;
 }
@@ -25,7 +28,7 @@
  .material-icons {
   color: white;
   }
-  .material-icons:active, .material-icons:focus, .material-icons:hover{color:#e91e63 !important;}
+  .material-icons.active, .material-icons:focus, .material-icons:hover{color:#e91e63 !important;}
  	.input-field input[type=radio]:focus + label,
     .input-field input[type=text]:focus + label ,
     .input-field input[type=email]:focus + label{
