@@ -4,7 +4,9 @@ body{
 	  background-size: cover;
 
 }
-.parallax-container {
-      
-    }
-        
+nav{
+	font-family: Raleway;
+}
+#sidenav-overlay{
+     z-index:996;
+}
