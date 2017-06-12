@@ -10,3 +10,11 @@ nav{
 #sidenav-overlay{
      z-index:996;
 }
+#my{
+	color:#212121;
+	font-size: 50px;
+}
+#sm{
+	font-family: Ubuntu;
+	font-size: 20px;
+}
